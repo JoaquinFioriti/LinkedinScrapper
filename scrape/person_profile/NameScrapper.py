@@ -1,4 +1,4 @@
-from LinkedinScrapper.scrape.person_profile.Scrapper import Scrapper
+from Scrapper import Scrapper
 
 
 # A good idea is that every scrapper add in a dictionary the name that will be in the columns

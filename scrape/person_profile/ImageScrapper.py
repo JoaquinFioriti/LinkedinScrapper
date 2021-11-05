@@ -1,4 +1,4 @@
-from LinkedinScrapper.scrape.person_profile.Scrapper import Scrapper
+from Scrapper import Scrapper
 
 
 class ImageScrapper(Scrapper):

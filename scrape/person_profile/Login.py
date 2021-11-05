@@ -10,7 +10,7 @@ class Login:
 
     def go(self):
         driver = webdriver.Chrome(
-            executable_path="E:\\Datos\\Escritorio\\Proyectos\\Proyectos2021\\ChromeDriver\\chromedriver.exe")
+            executable_path="chromedriver.exe")
         driver.get(self.urlBase)
         emailButton = driver.find_element_by_id("username")
         passwordButton = driver.find_element_by_id("password")
